@@ -5,6 +5,12 @@ import java.util.LinkedList;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 
+/**
+ * Container-Type class that holds all PDFFiles currently loaded in the Application.
+ * Used to 
+ * @author timob
+ *
+ */
 public class PDFStorer {
 	
 	private LinkedList<PDDocument> pdflist;
